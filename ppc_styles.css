@@ -1,0 +1,103 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	font-family: Arial, Helvetica, sans-serif;
+}
+#banner{
+	height: 150px;
+	width: 1075px;
+	background: #E8E8E8;
+}
+#banner>img{
+	margin-left: 50px;
+}
+ul{
+	padding: 8px 8px 8px 50px;
+	border-top: 2px solid #989898;
+	background: #F0F0F0;
+}
+ul li>a{
+	padding: 10px 15px 10px 15px;
+	color: #585858;
+	font: bold 10pt Arial, Helvetica, sans-serif;
+	text-decoration: none;
+	border-left: 2px groove white;
+}
+#wrapper, #main_pic, #about, #small_logo, h4, .industries, #banner>img, h1, ul li{
+	display: inline-block;
+}
+h1, h4, #about, .industries{
+	vertical-align: top;
+}
+#wrapper{
+	width: 1000px;
+	padding: 15px 25px 15px 50px;
+	background: black;
+}
+#main_pic{
+	height: 290px;
+	width: 385px;
+	border: 5px solid white;
+}
+#about{
+	height: 300px;
+	width: 550px;
+	margin-left: 25px;
+	background: gray;
+}
+#small_logo{
+	height: 15px;
+	width: 70px;
+	margin: 5px 10px 5px 25px;
+}
+h1{
+	margin: 35px 0px 5px 275px;
+	font-size: 16pt;
+}
+h2{
+	padding: 7px;
+	background: #FFCC33;
+	font-size: 10pt;
+}
+h3{
+	margin: 15px;
+	color: white;
+	font-size: 12pt;
+}
+h4{
+	margin: 5px 600px 5px 5px;
+	color: #FFCC33;
+	font: lighter 8pt Arial, Helvetica, sans-serif;
+}
+#about>p{
+	margin: 15px;
+	color: white;
+	font-size: 10pt;
+}
+.industries{
+	height: 300px;
+	width: 220px;
+	margin-right: 25px;
+	background: white;
+}
+.industries>img{
+	height: 100px;
+	width: 220px;
+}
+.industries>p{
+	height: 100px;
+	padding: 15px;
+	font-size: 10pt;
+}
+.industries>a{
+	margin: 0px 15px 0px 90px;
+	padding: 3px 15px 3px 15px;
+	border: 3px solid black;
+	border-radius: 10px;
+	background: #FFCC33;
+	color: black;
+	font: bold 8pt Arial, Helvetica, sans-serif;
+	text-decoration: none;
+}
